@@ -1,0 +1,33 @@
+{
+  "receitas": [
+    {
+      "receita": "Bolo de Fubá",
+      "ingrediente": "",
+      "id": 2
+    },
+    {
+      "receita": "Bolo de Laranja",
+      "ingrediente": "a",
+      "modo": "a",
+      "status": false,
+      "id": 3
+    },
+    {
+      "receita": "Torta de Limão",
+      "ingrediente": "a",
+      "id": 5
+    },
+    {
+      "receita": "Bolo de Chocolate",
+      "ingrediente": "4 ovos 4 colheres (sopa) de chocolate em pó 2 colheres (sopa) de manteiga 3 xícaras (chá) de farinha de trigo 2 xícaras (chá) de açúcar 2 colheres (sopa) de fermento 1 xícara (chá) de leite",
+      "id": 6
+    },
+    {
+      "receita": "Bolo de Côco",
+      "ingrediente": "",
+      "modo": "",
+      "status": false,
+      "id": 7
+    }
+  ]
+}
