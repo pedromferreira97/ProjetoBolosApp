@@ -6,7 +6,6 @@
   </ion-header>
   <ion-content class="ion-padding" color="warning">
     <ion-button color="light" expand="block" routerLink="/home">Página Inicial</ion-button>
-    <ion-button color="light" expand="block" routerLink="/contato">Contato</ion-button>
   </ion-content>
 </ion-menu>
 
@@ -16,19 +15,20 @@
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
       </ion-buttons>
-      <ion-title color="secondary">SmartList</ion-title>
+      <ion-title color="secondary" class="ion-text-center">Quais você já preparou?</ion-title>
     </ion-toolbar>
   </ion-header>
 
-<ion-content fullscreen="true">
-    <ion-list mode="ios">      
+<ion-content fullscreen="true" class="ion-padding">
+
+    <ion-list mode="ios">   
       <ion-item-sliding *ngFor="let receita of receitas" color="warning">
-        <ion-item (click)="actionFolha(receita)">
-          <ion-icon name="radio-button-off" *ngIf="!receita.status"></ion-icon>
-          <ion-label *ngIf="!receita.status"><strong>Receita: </strong>{{receita.receita}}</ion-label>
+        <ion-item (click)="actionFolha(receita)" class="ion-text-center ion-text-wrap">
+          <ion-icon name="radio-button-off" *ngIf="!receita.status" class="ion-text-center"></ion-icon>
+          <ion-label *ngIf="!receita.status"><strong>Receita: </strong>{{receita.receita}}</ion-label><br>
           
-          <ion-icon name="checkmark-circle" color="success" *ngIf="receita.status"></ion-icon><br>
-          <ion-label *ngIf="receita.status"><del><strong>Receita: </strong>{{receita.receita}}</del></ion-label>
+          <ion-icon name="checkmark-circle" color="success" *ngIf="receita.status" class="ion-text-center ion-text-wrap"></ion-icon><br>
+          <ion-label *ngIf="receita.status"><del><strong>Receita: </strong>{{receita.receita}}</del></ion-label><br>
         </ion-item>
         
         <ion-item-options>

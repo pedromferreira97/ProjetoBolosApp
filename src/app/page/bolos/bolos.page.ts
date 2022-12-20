@@ -41,6 +41,16 @@ export class BolosPage implements OnInit {
           name: 'preparo',
           type: 'text',
           placeholder: 'Modo de Preparo'
+        },
+        {
+          name: 'nivel',
+          type: 'text',
+          placeholder: 'Nível de Dificuldade'
+        },
+        {
+          name: 'imagem',
+          type: 'text',
+          placeholder: 'Link da Imagem'
         }
       ],
 
@@ -55,7 +65,7 @@ export class BolosPage implements OnInit {
         {
           text: 'Cadastrar',
           handler: (guardar) => {
-            let receita = {receita: guardar.nome, ingrediente: guardar.ingredientes, modo: guardar.preparo, status: false};
+            let receita = {receita: guardar.nome, ingrediente: guardar.ingredientes, modo: guardar.preparo, nivel: guardar.nivel, imagem: guardar.imagem, status: false};
           try {
             this.datab.postReceita(receita);
           } catch(err) {
@@ -77,7 +87,7 @@ export class BolosPage implements OnInit {
       header: "Opções",
       buttons: [
         {
-          text: receita.status ? 'Já preparei' : 'Não preparei ainda',
+          text: receita.status ? 'Não preparei ainda' : 'Já preparei',
           icon: receita.status ? 'radio-button-off' : 'checkmark-circle',
           handler: () => {
             receita.status = !receita.status;

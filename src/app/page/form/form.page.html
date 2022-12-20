@@ -20,6 +20,14 @@
       <ion-item>
         <ion-label>Altere o modo de preparo: </ion-label>
         <ion-input type="text" name="preparo" [ngModel]="receita.modo"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Altere o nível de dificuldade: </ion-label>
+        <ion-input type="text" name="nivel" [ngModel]="receita.nivel"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Altere a imagem: </ion-label>
+        <ion-input type="text" name="imagem" [ngModel]="receita.imagem"></ion-input>
       </ion-item><br>
       <ion-button type="submit" color="secondary" expand="block">Atualizar</ion-button>
     </form>

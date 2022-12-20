@@ -2,32 +2,53 @@
   "receitas": [
     {
       "receita": "Bolo de Fubá",
-      "ingrediente": "",
+      "ingrediente": "3 ovos 2 xícaras (chá) de açúcar 2 xícaras (chá) de fubá 3 colheres (sopa) rasas de farinha de trigo 1/2 copo (americano) de óleo 1 copo de leite 1 colher (sopa) de fermento em pó",
+      "preparo": "Bata todos os ingredientes no liquidificador. Coloque em uma forma untada e enfarinhada. Leve ao forno preaquecido e deixe assar, por cerca de 40 minutos.",
+      "nivel": "Fácil",
+      "imagem": "https://img.itdg.com.br/tdg/images/recipes/000/003/468/359047/359047_original.jpg?mode=crop&width=710&height=400",
       "id": 2
     },
     {
       "receita": "Bolo de Laranja",
-      "ingrediente": "a",
-      "modo": "a",
+      "ingrediente": "4 ovos 2 xícaras (chá) de açúcar 1 xícara (chá) de óleo suco de 2 laranja casca de 1 laranja 2 xícaras (chá) de farinha de trigo 1 colher (sopa) de fermento",
+      "modo": "Bata no liquidificador os ovos, o açúcar, o óleo, o suco e a casca da laranja. Passe para uma tigela e acrescente a farinha de trigo e o fermento. Leve para assar em uma forma com furo central, untada e enfarinhada, por mais ou menos 30 minutos. Desenforme o bolo e molhe com suco de laranja.",
       "status": false,
-      "id": 3
+      "id": 3,
+      "imagem": "https://s2.glbimg.com/F9dgqtXN9uu_YJvp8uV48PEnhBU=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/N/d/zEcoFRSqGbrt3F6uWpBQ/bolo-de-laranja-com-calda.jpg",
+      "nivel": "Médio"
     },
     {
       "receita": "Torta de Limão",
-      "ingrediente": "a",
+      "ingrediente": "Massa: 200 g de biscoito de maisena 150 g de margarina. Recheio: 1 lata de leite condensado (395 g) 1 caixa de creme de leite (200 g) suco de 4 limões raspas de 2 limões. Cobertura: 3 ou 4 claras de ovo 3 colheres (sopa) de açúcar raspas de 2 limões para decorar.",
+      "nivel": "Difícil",
+      "imagem": "https://conteudo.imguol.com.br/c/entretenimento/da/2021/05/28/torta-de-limao-simples-1622228849556_v2_4x3.jpg",
       "id": 5
     },
     {
-      "receita": "Bolo de Chocolate",
+      "receita": "Bolo de Chocolate com Calda",
       "ingrediente": "4 ovos 4 colheres (sopa) de chocolate em pó 2 colheres (sopa) de manteiga 3 xícaras (chá) de farinha de trigo 2 xícaras (chá) de açúcar 2 colheres (sopa) de fermento 1 xícara (chá) de leite",
+      "preparo": "No liquidificador, bata o óleo com o leite, os ovos, o chocolate e a farinha por 4 minutos. Sem bater, incorpore o açúcar e o fermento. Despeje em fôrma de cone central untada com manteiga e polvilhada com chocolate em pó.Leve ao forno médio preaquecido (180 °C) por cerca de 40 minutos ou até firmar (faça o teste do palito). Desenforme morno e regue com a calda, deixando escorrer pela lateral. Calda: Misture e leve os 3 primeiros ingredientes ao fogo médio até ferver. Acrescente o leite condensado e misture por 7 minutos.",
+      "nivel": "Difícil",
+      "imagem": "https://img.itdg.com.br/images/recipes/000/309/779/348000/348000_original.jpg",
       "id": 6
     },
     {
       "receita": "Bolo de Côco",
-      "ingrediente": "",
-      "modo": "",
+      "ingrediente": "3 ovos 2 xícaras de açúcar 2 xícaras de farinha de trigo 1 xícara de leite 1/2 xícara de óleo 100 gramas de coco ralado 1 colher de fermento em pó",
+      "modo": "Primeiramente, na batedeira bata os ovos, açúcar, óleo e o leite. Adicione então, o coco ralado e a farinha de trigo e bata novamente para misturar. Logo em seguida, desligue a batedeira e coloque o fermento em pó; misture com uma colher manualmente. Por fim, Leve ao forno pré-aquecido 180 graus, por 45 minutos ou até espetar um palito e sair limpo.",
       "status": false,
-      "id": 7
+      "id": 7,
+      "imagem": "https://assets.unileversolutions.com/recipes-v2/93414.jpg",
+      "nivel": "Médio"
+    },
+    {
+      "receita": "Cheesecake Original",
+      "ingrediente": "1 pacote de biscoito tipo maisena 4 potes de cream cheese (200 ou 220 g cada) 4 ovos (sempre um ovo para cada pote de creme) Suco de 1 limão grande Essência de baunilha a gosto Açúcar a gosto 1/2 xícara (chá) de margarina líquida Canela em pó a gosto",
+      "modo": "Bater o biscoito no liquidificador até obter uma farinha. Transferir para uma tigela e acrescentar a margarina e a canela. Amassar bem com as mãos até obter uma farofa (massa quebradiça). Untar levemente uma assadeira desmontável de aproximadamente 25 cm de diâmetro, com pinceladas de margarina. Compacte a massa com as mãos forrando o fundo da assadeira e subindo 1 cm nas laterais. Leve a massa para assar em forno pré-aquecido a 180ºC por 10 minutos. Retire imediatamente e deixe esfriar enquanto prepara o recheio. Bata o cream cheese por 2 minutos na batedeira. Acrescente os outros ingredientes e bata até obter um creme homogêneo. De vez em quando interrompa e raspe o fundo com uma espátula. Despeje sobre a massa pré-assada e asse por 20 minutos em forno pré-aquecido a 180ºC. Retire do forno, deixe esfriar e leve para gelar. Espalhe a cobertura de sua preferência. Se for a calda de chocolate, empregue fria. Desenforme sobre um prato de bolo na hora de servir.",
+      "nivel": "Médio",
+      "status": false,
+      "id": 8,
+      "imagem": "https://www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-2603-0d1f877ead7af024b10a35232e80f379.jpg"
     }
   ]
 }

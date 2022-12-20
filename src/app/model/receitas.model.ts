@@ -4,4 +4,6 @@ export interface Receitas {
     ingrediente: string;
     modo: string;
     status: boolean;
+    imagem: string;
+    nivel: string;
 }

@@ -6,7 +6,6 @@
   </ion-header>
   <ion-content class="ion-padding" color="warning">
     <ion-button color="light" expand="block" routerLink="/bolos">Receitas</ion-button>
-    <ion-button color="light" expand="block" routerLink="/contato">Contato</ion-button>
   </ion-content>
 </ion-menu>
 
@@ -21,16 +20,11 @@
 </ion-header>
 
 <ion-content>
-  <ion-card *ngFor="let comida of receitas" color="warning" class="ion-text-center" (click)="actionFolha(comida)">
-    <ion-card-header>
+  <ion-card *ngFor="let comida of receitas" color="warning" class="ion-text-center">
+    <ion-img [src]="comida.imagem"></ion-img>
+    <ion-card-header> 
       <ion-card-title>{{comida.receita}}</ion-card-title>
     </ion-card-header>
-    <ion-card-content>{{comida.ingrediente}}</ion-card-content>
+    <ion-card-content>Nível de Dificuldade: {{comida.nivel}}</ion-card-content>
   </ion-card>
-
-  <ion-fab horizontal="end" vertical="bottom">
-    <ion-fab-button (click)="mensagemAlert()" >
-      <ion-icon name="add-circle-outline"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
 </ion-content>

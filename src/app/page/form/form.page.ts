@@ -31,7 +31,7 @@ export class FormPage implements OnInit {
       this.datab.updateReceita(form.value, this.idRota);
     } finally {
       this.util.toastMessage("Receita atualizada", "bottom", 2000, "secondary");
-      this.router.navigate(['/home']);
+      this.router.navigate(['/bolos']);
     }
   }
 
